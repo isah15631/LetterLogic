@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+/* td{
+border:1px solid black;
+} */
+body{
+    opacity:0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    border-bottom: 20px solid green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:green;
+    color: white;
+
+}
+
+.board{
+    border: 2px solid black;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+}
+
+.title{
+    padding: 30px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.game_body{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 15px;
+    text-align: center;
+}
+
+button{
+    display: none;
+}
+
+.btn{
+    width: 50px;
+    font-size: 20px;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid orangered;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    border-radius: 10px;
+    transition: all .5s;
+    box-shadow: 2px 3px 3px 2px black;
+}
+.btn:hover{
+    color: white;
+    background-color: orangered;
+    border: 2px solid cyan;
+}
+input[type="submit"]{
+    padding: 10px;
+    width: 200px;
+    background: orangered;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 3px 2px black;
+    transition: all .3s;
+}
+input[type="submit"]:hover{
+
+    background-color: rgba(0, 0, 0, .8);
+    width:150px;
+
+}
+.infohold{
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    border-bottom: 2px solid black;
+}
+.hold1{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius:20px;
+    background-color: orangered;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    padding: 7px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: right;
+}
+.hold2{
+    text-transform: capitalize;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px;
+    background-color: orangered;
+    color: white;
+    width: 300px;
+    padding: 7px;
+    text-align: right;
+    float:right;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: left;
+}
